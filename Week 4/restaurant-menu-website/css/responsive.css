@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    .menu-item {
+        flex-basis: 45%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        flex-basis: 100%;
+    }
+
+    .header, .footer {
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .menu-title {
+        font-size: 20px;
+    }
+
+    .contact-info {
+        font-size: 14px;
+    }
+}
